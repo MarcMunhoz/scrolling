@@ -1,0 +1,37 @@
+#wrap {
+	height: 200px;
+	background: red;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.content {
+	background: #eee;
+	font-size: 120%;
+}
+
+.content p {
+	padding: 0 20px;
+	text-align: justify;
+}
+
+.content p:first-of-type {
+	margin-top: 0;
+}
+
+.content p:last-of-type {
+	margin-bottom: 0;
+}
+
+#up, #down {
+	border: 1px dashed red;
+	width: 10%;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+}
+
+#up:hover, #down:hover {
+	background: red;
+	color: #eee;
+}
