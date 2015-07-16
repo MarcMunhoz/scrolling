@@ -2,7 +2,7 @@
 
 This repo collects various types of scroll for use in many situations.
 
-**Whats to use**
+**What's on**
 
 * HTML 4.01
 * Jquery version: 1.11.3
